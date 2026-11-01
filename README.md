@@ -1,38 +1,42 @@
 # Hi, I'm Daniil
 
-Junior Frontend Developer based in Wrocław, Poland.  
-I build web apps with **Next.js** and **TypeScript**. I don't just want code that works: I want to understand every line I write.
+Junior Frontend Developer based in Wrocław, Poland. I build web apps with Next.js, TypeScript and Supabase.
 
-- Currently building **JobTracker**, a job aggregator with an application tracker
-- Learning: backend basics, databases, clean architecture
-- Open to: **junior / internship roles** and **freelance projects** (websites for small businesses)
+Open to junior and internship roles, and freelance websites for small businesses.
 
 ## Tech Stack
 
 **Frontend:** Next.js · React · TypeScript · Tailwind CSS · shadcn/ui  
-**Backend & Data:** Supabase (PostgreSQL, Auth) · REST API integrations  
-**Tools:** Git · GitHub (feature branches & pull requests) · Vercel · pnpm · AI-assisted development (Claude Code)  
+**Backend and data:** Supabase (PostgreSQL, Auth, Row Level Security) · REST APIs  
+**Tools:** Git · GitHub · Vercel · pnpm · Claude Code  
 **Also:** Python (OOP basics)
 
 ## Projects
 
-### JobTracker: job aggregator & application tracker
-A web app that collects job offers in one place and helps you track your applications.
-- Pulls vacancies from the **Adzuna API** into a database (~2000 listings, outdated ones removed automatically)
-- User registration & authentication
-- Debounced search across listings
-- Application tracker: applied / rejected / accepted
-- Planned: AI features
+### JobTracker
+A job search app for the UK and Europe: find vacancies and track every application in one place.
 
-### Penalty Shootout: browser game
-A penalty shootout web game built together with a classmate for a planned promotional collaboration with a local football club.
-- Team project: collaboration via Git
+- Imports vacancies from the Adzuna API on a daily schedule, with retries, usage limits and automatic cleanup of outdated listings
+- Search with country filters and pagination
+- Application tracker with statuses, notes and instant updates
+- Email and password authentication, with per-user data access enforced by Row Level Security
 
-### Personal Portfolio *(in progress)*
-My portfolio website with projects and freelance services. It's deployed on Vercel with a custom domain.
+**Stack:** Next.js 16 · TypeScript · Supabase · Tailwind CSS · Vercel
+
+### Penalty Shootout
+A browser game built with a classmate for a planned promotion with a local football club. We collaborated through Git.
+
+### Personal Portfolio (in progress)
+A website for my projects and freelance services, deployed on Vercel with a custom domain.
+
+## Currently Learning
+
+Backend fundamentals, database design and software architecture.
 
 ## Languages
-Ukrainian (native) · Polish (fluent) · English (intermediate, actively improving)
+
+Ukrainian (native) · Russian (native) · Polish (fluent) · English (intermediate)
 
 ## Contact
+
 [LinkedIn](https://www.linkedin.com/in/daniil-ilin-226767425/) · [Email](mailto:daniil.ilin0811@gmail.com)
